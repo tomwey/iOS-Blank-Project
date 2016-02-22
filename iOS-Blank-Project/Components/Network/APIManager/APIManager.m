@@ -203,7 +203,8 @@
 
 - (void)handleSuccess:(id)responseObject
 {
-    if ( [responseObject objectForKey:@"code"] ) { // 如果是带有此种json数据结构，需要处理服务器逻辑错误
+    if ( [responseObject isKindOfClass:[NSDictionary class]] &&
+        [responseObject objectForKey:@"code"] ) { // 如果是带有此种json数据结构，需要处理服务器逻辑错误
         NSInteger code = [[responseObject objectForKey:@"code"] integerValue];
         if ( code != 0 ) {
             if ( [self.delegate respondsToSelector:@selector(apiManagerDidFailure:)] ) {
