@@ -509,6 +509,9 @@ forHTTPHeaderField:(NSString *)field
 
         if ([self.HTTPMethodsEncodingParametersInURI containsObject:[[request HTTPMethod] uppercaseString]]) {
             mutableRequest.URL = [NSURL URLWithString:[[mutableRequest.URL absoluteString] stringByAppendingFormat:mutableRequest.URL.query ? @"&%@" : @"?%@", query]];
+#if DEBUG
+            NSLog(@"!--------- Request URL ---------! %@", mutableRequest.URL);
+#endif
         } else {
             if (![mutableRequest valueForHTTPHeaderField:@"Content-Type"]) {
                 [mutableRequest setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
