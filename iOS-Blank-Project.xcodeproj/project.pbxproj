@@ -80,6 +80,8 @@
 		978DDA511C7AB6DE00EF88CB /* AWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 978DD9FD1C7AB6DE00EF88CB /* AWTableViewCell.m */; };
 		978DDA521C7AB6DE00EF88CB /* AWToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 978DD9FF1C7AB6DE00EF88CB /* AWToast.m */; };
 		978DDA531C7AB6DE00EF88CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 978DDA071C7AB6DE00EF88CB /* Default-568h@2x.png */; };
+		97DA74C81C85399800A61600 /* NSObject+AWDeallocBlockExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DA74C71C85399800A61600 /* NSObject+AWDeallocBlockExecutor.m */; };
+		97DA74CB1C853D3A00A61600 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97DA74CA1C853D3A00A61600 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -240,6 +242,10 @@
 		978DDA0D1C7AB6DE00EF88CB /* Views.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Views.h; sourceTree = "<group>"; };
 		978DDA541C7AB8AA00EF88CB /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 		978DDA551C7AB98700EF88CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		97DA74C61C85399800A61600 /* NSObject+AWDeallocBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AWDeallocBlockExecutor.h"; sourceTree = "<group>"; };
+		97DA74C71C85399800A61600 /* NSObject+AWDeallocBlockExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AWDeallocBlockExecutor.m"; sourceTree = "<group>"; };
+		97DA74C91C853D3A00A61600 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97DA74CA1C853D3A00A61600 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +288,8 @@
 				978DDA061C7AB6DE00EF88CB /* Resources */,
 				978DD9451C7AB69900EF88CB /* AppDelegate.h */,
 				978DD9461C7AB69900EF88CB /* AppDelegate.m */,
+				97DA74C91C853D3A00A61600 /* ViewController.h */,
+				97DA74CA1C853D3A00A61600 /* ViewController.m */,
 				978DDA541C7AB8AA00EF88CB /* Defines.h */,
 				978DD94E1C7AB69900EF88CB /* Assets.xcassets */,
 				978DD9531C7AB69900EF88CB /* Info.plist */,
@@ -386,6 +394,8 @@
 				978DD9731C7AB6DD00EF88CB /* NSObjectAdditions.m */,
 				978DD9741C7AB6DD00EF88CB /* NSStringAdditions.h */,
 				978DD9751C7AB6DD00EF88CB /* NSStringAdditions.m */,
+				97DA74C61C85399800A61600 /* NSObject+AWDeallocBlockExecutor.h */,
+				97DA74C71C85399800A61600 /* NSObject+AWDeallocBlockExecutor.m */,
 			);
 			path = "Foundation Additions";
 			sourceTree = "<group>";
@@ -776,6 +786,7 @@
 				978DDA391C7AB6DE00EF88CB /* AWTableViewDataSource.m in Sources */,
 				978DDA3C1C7AB6DE00EF88CB /* UITableView+LoadNetworkData.m in Sources */,
 				978DDA161C7AB6DE00EF88CB /* NSObjectAdditions.m in Sources */,
+				97DA74CB1C853D3A00A61600 /* ViewController.m in Sources */,
 				978DDA271C7AB6DE00EF88CB /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				978DDA3F1C7AB6DE00EF88CB /* UIButton+CustomTitleLabel.m in Sources */,
 				978DDA201C7AB6DE00EF88CB /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -799,6 +810,7 @@
 				978DDA241C7AB6DE00EF88CB /* AFURLRequestSerialization.m in Sources */,
 				978DDA261C7AB6DE00EF88CB /* AFURLSessionManager.m in Sources */,
 				978DDA2F1C7AB6DE00EF88CB /* APIDictionaryReformer.m in Sources */,
+				97DA74C81C85399800A61600 /* NSObject+AWDeallocBlockExecutor.m in Sources */,
 				978DDA251C7AB6DE00EF88CB /* AFURLResponseSerialization.m in Sources */,
 				978DDA121C7AB6DE00EF88CB /* UITabBarController+CustomTabBar.m in Sources */,
 				978DDA411C7AB6DE00EF88CB /* UIImageAdditions.m in Sources */,
@@ -959,6 +971,7 @@
 				978DD9581C7AB69900EF88CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

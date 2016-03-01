@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Defines.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,10 +16,11 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    self.window = AWCreateAppWindow([UIColor redColor]);
+    self.window = AWCreateAppWindow([UIColor whiteColor]);
+    
+    self.window.rootViewController = [[[ViewController alloc] init] autorelease];
     
     return YES;
 }
