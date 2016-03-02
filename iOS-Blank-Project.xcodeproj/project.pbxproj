@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9782A9F21C86D2EF00FBBCAE /* UINavigationController+StatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782A9F11C86D2EF00FBBCAE /* UINavigationController+StatusBarStyle.m */; };
 		978DD9441C7AB69900EF88CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 978DD9431C7AB69900EF88CB /* main.m */; };
 		978DD9471C7AB69900EF88CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 978DD9461C7AB69900EF88CB /* AppDelegate.m */; };
 		978DD94F1C7AB69900EF88CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 978DD94E1C7AB69900EF88CB /* Assets.xcassets */; };
@@ -85,6 +86,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9782A9F01C86D2EF00FBBCAE /* UINavigationController+StatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StatusBarStyle.h"; sourceTree = "<group>"; };
+		9782A9F11C86D2EF00FBBCAE /* UINavigationController+StatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBarStyle.m"; sourceTree = "<group>"; };
 		978DD93F1C7AB69900EF88CB /* iOS-Blank-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Blank-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		978DD9431C7AB69900EF88CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		978DD9451C7AB69900EF88CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -573,6 +576,8 @@
 				978DD9DD1C7AB6DE00EF88CB /* UIViewAdditions.m */,
 				978DD9DE1C7AB6DE00EF88CB /* UIWindowAdditions.h */,
 				978DD9DF1C7AB6DE00EF88CB /* UIWindowAdditions.m */,
+				9782A9F01C86D2EF00FBBCAE /* UINavigationController+StatusBarStyle.h */,
+				9782A9F11C86D2EF00FBBCAE /* UINavigationController+StatusBarStyle.m */,
 			);
 			path = "UIKit Additions";
 			sourceTree = "<group>";
@@ -795,6 +800,7 @@
 				978DDA451C7AB6DE00EF88CB /* AWUIUtils.m in Sources */,
 				978DDA1A1C7AB6DE00EF88CB /* Command.m in Sources */,
 				978DDA0F1C7AB6DE00EF88CB /* UIScrollView+AWRefresh.m in Sources */,
+				9782A9F21C86D2EF00FBBCAE /* UINavigationController+StatusBarStyle.m in Sources */,
 				978DDA461C7AB6DE00EF88CB /* AWEntityTables.m in Sources */,
 				978DDA1F1C7AB6DE00EF88CB /* AFHTTPSessionManager.m in Sources */,
 				978DDA281C7AB6DE00EF88CB /* UIAlertView+AFNetworking.m in Sources */,
